@@ -33,7 +33,7 @@ a {
 nav {
 	margin:0;
 	padding: 0;
-	background-color: #276ba5;
+	background-color: #19426b;
   line-height: 32px;
 }
 
@@ -41,8 +41,8 @@ nav {
 	display: block;
 	padding: 0 40px;
 	float: left;
-	font-size:20px;
-	line-height: 60px;
+	line-height: 0;
+
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -69,15 +69,16 @@ nav ul li {
 	margin: 0px;
 	display:inline-block;
 	float: left;
-	background-color: #276ba5;
+	background-color: #19426b;
+	text-align: left;
 	}
 
 /* Styling the links */
 nav a {
 	display:block;
-	padding:14px 20px;
+	padding:14px 15px;
 	color:#FFF;
-	font-size:17px;
+	font-size:15px;
 	text-decoration:none;
 }
 
@@ -103,7 +104,7 @@ nav ul li:hover > ul {
 	display:inherit;
 }
 
-/* Fisrt Tier Dropdown */
+/* First Tier Dropdown */
 nav ul ul li {
 	width:170px;
 	float:none;
@@ -128,7 +129,7 @@ li > a:only-child:after { content: ''; }
 @media all and (max-width : 768px) {
 
 	#logo {
-		display: block;
+		display: inline-block;
 		padding: 0;
 		width: 100%;
 		text-align: center;
@@ -149,7 +150,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color:  #276ba5;
+		background-color: #19426b;
 		padding:14px 20px;
 		color:#FFF;
 		font-size:17px;
@@ -170,6 +171,7 @@ li > a:only-child:after { content: ''; }
 	nav ul li {
 		display: block;
 		width: 100%;
+		text-align: left;
 		}
 
 	nav ul ul .toggle,
